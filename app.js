@@ -18,7 +18,6 @@ button.addEventListener("mouseover", () => {
 });
 
 trueButton.addEventListener("click", () => {
-    // İçeriği değiştiriyoruz
     content.innerHTML = `
         <video class="yasasinVideo" controls autoplay>
             <source src="kiss.mp4" type="video/mp4">
